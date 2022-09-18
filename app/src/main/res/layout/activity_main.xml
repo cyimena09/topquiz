@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controllers.MainActivity">
+
+    <TextView
+        android:id="@+id/main_textview_greeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue dans TopQuiz ! Quel est votre prénom ?" />
+
+    <TextView
+        android:id="@+id/main_textview_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Votre score" />
+
+    <EditText
+        android:id="@+id/main_edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre nom"/>
+
+    <Button
+        android:id="@+id/main_button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jouer"/>
+
+</LinearLayout>
